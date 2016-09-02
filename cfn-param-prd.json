@@ -5,6 +5,6 @@
   },
   {
     "ParameterKey": "BuildId",
-    "ParameterValue": "${BuildId}"
+    "ParameterValue": "{BuildId}"
   }
 ]

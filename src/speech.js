@@ -9,7 +9,8 @@ var bye = [
 ];
 
 var help = [
-    "Welcome to Freshpad! I can start a grocery session or update an item in your refrigerator, which would you like."
+    "Welcome to Freshpad! I can help with the groceries or update an item in your refrigerator, which would you like?",
+    "Freshpad here. I can add or remove an item from your refrigerator or help with the groceries, so, how can I help?"
 ];
 
 function getRandom(list) {
