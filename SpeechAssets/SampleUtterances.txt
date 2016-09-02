@@ -1,0 +1,12 @@
+AMAZON.StopIntent stop
+AMAZON.StopIntent shut up
+AMAZON.StopIntent I don't want to know
+AMAZON.StopIntent none
+AMAZON.StopIntent go away
+
+AMAZON.CancelIntent cancel
+
+AMAZON.NoIntent no
+AMAZON.NoIntent no thanks
+AMAZON.NoIntent no thank you
+AMAZON.NoIntent I am done

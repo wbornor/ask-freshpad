@@ -1,0 +1,14 @@
+{
+  "name": "ask-freshpad",
+  "description": "",
+  "version": "0.0.1",
+  "main": "index.js",
+  "contributors": [
+    "Wesley Bornor <wbornor@gmail.com>"
+  ],
+  "dependencies": {
+    "alexa-sdk": "^1.0.5",
+    "aws-sdk": "^2.5.3",
+    "config": "^1.21.0"
+  }
+}
