@@ -27,7 +27,7 @@ aws cloudformation create-stack --profile $AWS_CLI_PROFILE \
 --capabilities CAPABILITY_IAM \
 || \
 aws cloudformation update-stack --profile $AWS_CLI_PROFILE \
---stack-name wca-lambda-alexashowroomflr-fld \
+--stack-name $STACK_NAME \
 --template-body file://$CFN_JSON \
 --parameters file://$CFN_PARAM_JSON \
 --capabilities CAPABILITY_IAM
