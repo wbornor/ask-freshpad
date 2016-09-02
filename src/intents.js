@@ -6,6 +6,8 @@ var speech = require('./speech');
 var helpIntent = function () {
     this.attributes['currentIntent'] = 'AMAZON.HelpIntent';
     console.log("currentIntent: " + this.attributes['currentIntent']);
+
+    this.emit(":ask", speech.getRandom(speech.help), speech.getRandom(speech.help));
 };
 
 var unhandledIntent = function () {
@@ -25,7 +27,7 @@ var AMAZONStopIntent = function () {
     } catch (ignore) {
     }
     console.log("currentIntent: " + this.attributes['currentIntent']);
-    this.emit(':tell', speech.getRandomGoodbye());
+    this.emit(":tell", speech.getRandom(speech.bye));
 };
 
 var AMAZONCancelIntent = function () {
