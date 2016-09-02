@@ -1,6 +1,8 @@
 #!/bin/bash -x
 
-export ENV="prd";
+export GIT_BRANCH=`git rev-parse --abbrev-ref HEAD`;
+
+export ENV=$GIT_BRANCH;
 export SKILL_NAME="freshpad";
 export LAMBDA_NAME="askfreshpad";
 export AWS_CLI_PROFILE="freshpad";
