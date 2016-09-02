@@ -95,7 +95,7 @@
             "Fn::Join": [
               "",
               [
-                "lambda/",
+                "artifacts/lambda/",
                 {
                   "Ref": "AppName"
                 },
