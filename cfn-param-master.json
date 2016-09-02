@@ -2,5 +2,9 @@
   {
     "ParameterKey": "EnvironmentTag",
     "ParameterValue": "master"
+  },
+  {
+    "ParameterKey": "BuildId",
+    "ParameterValue": "${BuildId}"
   }
 ]

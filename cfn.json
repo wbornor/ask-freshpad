@@ -11,6 +11,10 @@
       "Description": "Environment of the Stack",
       "Type": "String"
     },
+    "BuildId": {
+      "Description": "BuildId assigned to this build iteration",
+      "Type": "Number"
+    },
     "S3BucketName": {
       "Description": "Name of S3 for the artifact",
       "Type": "String",
@@ -102,6 +106,10 @@
                 "/",
                 {
                   "Ref": "EnvironmentTag"
+                },
+                "-",
+                {
+                  "Ref": "BuildId"
                 },
                 ".zip"
               ]
